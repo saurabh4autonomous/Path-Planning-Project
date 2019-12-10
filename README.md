@@ -53,10 +53,14 @@ In our system we are receiving this data from Sensor Fusion Module (refer above 
 *Note* : Front Distance has been checked from our Car to 32 's' units from us. And Rear Distance has been checked from our Car to 30 's' units from us in rear direction 
 
 ### Behaviour Planning
-The behavioral planning component determines what behavior the vehicle should exhibit at any point in time. This could mean stopping at a traffic light or intersection, changing lanes, accelerating, or taking a left/right turns , etc. are some of the maneuvers that may be issued by this module. Let's have a look on Behaviour Planning Module -->
+The behavioral planning component determines what behavior the vehicle should exhibit at any point in time. This could mean stopping at a traffic light or intersection, changing lanes, accelerating, or taking a left/right turns , etc. are some of the maneuvers that may be issued by this module. 
+Let's have a look on Behaviour Planning Module -->
 ![alt text][image2] 
+
 Our project has these states :
 ![alt text][image1]
+
+
 Let's have a look on various functions of our Behaviour Planning Module:
 
 * Safety Check
@@ -114,6 +118,7 @@ next_x_vals and next_y_vals now have all 50 points which consist of 3 future poi
     3. Car always keeps Max Acceleration and Jerk in Limits.
     4. Car stays in Lane, except for the time changing the lane
     5. Car is able to change lane smoothly, efficiently and safely.
+    
  ![alt text][image3] 
 
 ## Basic Build Instructions
